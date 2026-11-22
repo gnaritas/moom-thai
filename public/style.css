@@ -95,7 +95,9 @@ section h3{font-size:19px;font-weight:800;letter-spacing:.02em;margin-bottom:8px
 
 /* ---------- pageheads & detail ---------- */
 .pagehead{padding:clamp(42px,6.5vw,76px) 0 clamp(28px,4vw,48px)}
-.pagehead h2{max-width:26ch}
+section h1{font-size:clamp(28px,4.2vw,46px);line-height:1.08;font-weight:800;letter-spacing:-.01em;
+  text-transform:uppercase;max-width:22ch}
+.pagehead h1,.pagehead h2{max-width:26ch}
 .detail{padding-top:clamp(20px,3vw,34px)}
 .detail h2{margin-bottom:16px}
 .detail h3{margin-top:26px}

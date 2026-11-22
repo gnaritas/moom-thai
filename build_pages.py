@@ -210,7 +210,7 @@ menu_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">The counter menu</p>
-    <h2>A short menu, cooked to order</h2>
+    <h1>A short menu, cooked to order</h1>
     <p class="lede">Moom Thai&rsquo;s menu runs about half the size of sister restaurant Monsoon
     Siam&rsquo;s &mdash; and it carries street plates you can&rsquo;t get on Atwood Avenue. Prices live at
     the counter.</p>
@@ -278,7 +278,7 @@ omelet_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">The signature plate</p>
-    <h2>Puffy fried Thai omelet,<br>over rice</h2>
+    <h1>Puffy fried Thai omelet,<br>over rice</h1>
     <p class="lede">Eggs fried puffy and golden, served over rice, with a protein to add &mdash; shrimp is
     the counter&rsquo;s go-to. It was on the first table the Wisconsin State Journal visited, and it is
     exactly what Thai street food looks like.</p>
@@ -342,7 +342,7 @@ pad_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">The one that traveled</p>
-    <h2>Pad Thai on<br>South Park Street</h2>
+    <h1>Pad Thai on<br>South Park Street</h1>
     <p class="lede">Pad Thai, massaman curry and khao soi are the plates Monsoon Siam&rsquo;s regulars
     order most. Pooh moved one of them to the South Side &mdash; the pad Thai &mdash; and left the rest on
     Atwood Avenue.</p>
@@ -407,7 +407,7 @@ visit_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">Visit</p>
-    <h2>The corner of South Park &amp; Lakeside</h2>
+    <h1>The corner of South Park &amp; Lakeside</h1>
     <p class="lede">{ADDR_FULL}. Look for the corner windows &mdash; next to Siam Boutique, in the same
     building as Cronometro bike shop, in the old Asian Sweet Bakery space.</p>
   </div>
@@ -463,7 +463,7 @@ about_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">About</p>
-    <h2>Her corner, her wok, her rules</h2>
+    <h1>Her corner, her wok, her rules</h1>
     <p class="lede">Moom Thai is the South Side restaurant that Dutdao &ldquo;Pooh&rdquo; Wonglaka built
     for one reason: the corner opened, and she said yes.</p>
   </div>
@@ -516,7 +516,7 @@ contact_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">Send a note</p>
-    <h2>Talk to the counter</h2>
+    <h1>Talk to the counter</h1>
     <p class="lede">A question about a dish, hours, or feeding a crowd? Write it here and it lands with
     the shop &mdash; or just call <a href="tel:{TEL}">{TEL_DISPLAY}</a> during Tue&ndash;Sun,
     noon&ndash;7.</p>
@@ -559,7 +559,7 @@ priv_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">Privacy</p>
-    <h2>What this site does with your information</h2>
+    <h1>What this site does with your information</h1>
   </div>
 </section>
 
@@ -598,7 +598,7 @@ thanks_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">Note received</p>
-    <h2>Your message is in.</h2>
+    <h1>Your message is in.</h1>
     <p class="lede">The counter reads every note and answers in the order they arrive. For anything
     urgent while the shop is open, call <a href="tel:{TEL}">{TEL_DISPLAY}</a>.</p>
     <p class="ctarow"><a class="btn" href="/">Back to the front page</a>
@@ -617,7 +617,7 @@ nf_main = f"""
 <section class="pagehead">
   <div class="wrap">
     <p class="kick">404 &mdash; wrong corner</p>
-    <h2>This page isn&rsquo;t here.</h2>
+    <h1>This page isn&rsquo;t here.</h1>
     <p class="lede">The food is, though: {ADDR_FULL}, Tue&ndash;Sun noon&ndash;7.</p>
     <p class="ctarow"><a class="btn" href="/">Front page</a>
     <a class="btn ghost" href="/menu">Menu</a></p>
