@@ -1,0 +1,12 @@
+{
+  "name": "moom-thai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Moom Thai — grab-and-go Thai street food, Madison WI (websites desk, t_1d414d27)",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
