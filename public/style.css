@@ -16,6 +16,10 @@ a:hover{color:var(--chili)}
 .skip:focus{left:8px;top:8px}
 .wrap{width:min(1120px,100% - 40px);margin-inline:auto}
 .wrap.narrow{width:min(760px,100% - 40px)}
+.wrap.twocol{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,400px);gap:60px;align-items:start}
+.qcol{position:sticky;top:96px}
+.qcol .card{margin-top:30px}
+@media (max-width:900px){.wrap.twocol{grid-template-columns:1fr;gap:34px}.qcol{position:static}}
 
 /* ---------- nav ---------- */
 #nav{display:flex;align-items:center;gap:18px;padding:14px 20px;border-bottom:2px solid var(--ink);
